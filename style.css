@@ -59,6 +59,13 @@ a:hover {
 .bloc-sm {
     padding: 20px 50px;
 }
+.d-flex{
+    display:flex;
+}
+.container_photos{
+    max-width:320px;
+    margin:auto;
+}
 
 .bg-center,
 .bg-l-edge,
@@ -774,7 +781,7 @@ h4 {
     margin-top: 50px;
 }
 .title_section-4{
-    width:450px;
+    max-width:450px;
     margin:auto;
     font-weight:bold;
 }
@@ -929,7 +936,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    h1,
+    /*h1,
     h2,
     h3,
     h4,
@@ -939,7 +946,7 @@ h4 {
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
-    }
+    }*/
     .b-parallax {
         background-attachment: scroll;
     }

@@ -12,6 +12,10 @@ button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
+ul{
+   list-style-type: none;
+   padding:0;
+}
 
 a:hover {
     text-decoration: none;
@@ -98,7 +102,15 @@ a:hover {
 .b-parallax {
     background-attachment: fixed;
 }
-
+.section-5{
+    height:400px;
+}
+.text_section-5{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
 .d-bloc {
     color: rgba(255, 255, 255, .7);
 }
@@ -133,7 +145,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #1C1B1B;
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +162,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: #1C1B1B;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -651,7 +663,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #1C1B1B!important;
 }
 
 .container {
@@ -677,12 +689,23 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
+}
+.citation_bloc-2{
+    font-size:18px;
+    font-style: italic;
+    font-family:"helvetica neue"
+}
+.citation_name{
+    font-style:initial;
+    font-size:20px;
+    font-weight:300;
 }
 
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+    border-radius:10px;
 }
 
 .h1 {
@@ -694,14 +717,14 @@ p {
     margin-top: 22px;
     color: #FFFFFF!important;
     text-transform: uppercase;
-    padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    padding: 15px 30px 15px 30px;
     font-weight: 700;
 }
 
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    padding-top:20px;
 }
 
 h2 {
@@ -713,13 +736,16 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #1C1B1B!important;
 }
 
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
+}
+.link-footer{
+    padding-top:50px;
 }
 
 h1 {
@@ -747,14 +773,22 @@ h4 {
     margin-bottom: 44px;
     margin-top: 50px;
 }
+.title_section-4{
+    width:450px;
+    margin:auto;
+    font-weight:bold;
+}
 
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 40px 40px 40px 40px;
+}
+.bold{
+    font-weight:bold;
 }
 
 .bold-link {
@@ -774,9 +808,10 @@ h4 {
     background-color: #F3976C;
 }
 
-.tc-white {
+.tc-salmon {
     color: #F3976C!important;
 }
+
 
 .btn-atomic-tangerine {
     background: #F3976C;
@@ -810,7 +845,7 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/image-de-presentation_compressed.jpg");
 }
 
 .bg-lines-h2-bg {
@@ -818,7 +853,7 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere_compressed.jpg");
 }
 
 .bg-presentation {

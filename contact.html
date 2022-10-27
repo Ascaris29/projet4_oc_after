@@ -4,19 +4,19 @@
     <meta charset="utf-8">
     <meta name="description" content="Site d'agence web design, stratégie, illustrations sur Lyon, formulaire de contact">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
+    <link rel="shortcut icon" type="image/png" href="./img/favicon.jpg">
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
 	
     
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
+	<script src="./js/jquery-2.1.0.js" defer></script>
+	<script src="./js/bootstrap.js" defer></script>
+	<script src="./js/blocs.js" defer></script>
+	<script src="./js/jqBootstrapValidation.js" defer></script>
+	<script src="./js/formHandler.js" defer></script>
     <title> Contact - Agence web la panthère - Lyon</title>
 
     
@@ -28,7 +28,7 @@
 <body>
     
 <!---------------------------------------------------------------------------------------------- header -------------------------------------------------------------------------------------------------->
-<header class="bloc bgc-white l-bloc " id="header">					
+<header class="bloc bgc-white l-bloc " id="header" aria-label="tête de page">					
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
@@ -54,7 +54,7 @@
 <!------------------------------------------------------------------------------------------------------ Main ------------------------------------------------------------------------------------------------------->
 <main>
 <!----------------------------------------------------------------------------------------------------------- Section 6 --------------------------------------------------------------------------------------------->
-	<section class="bloc bg-dots-bg bloc-bg-texture texture-paper" id="section-6">
+	<section class="bloc bg-dots-bg bloc-bg-texture texture-paper" id="section-6" aria-label="section 6">
 		<div class="container bloc-lg">
 			<div class="row">
 				<div class="col-sm-12 black-background">
@@ -71,7 +71,7 @@
 	</section>
 	
 	<!------------------------------------------------------------------------------------------------------------------------------- Section-7 ----------------------------------------------------------------------------->
-	<section class="bloc bgc-white l-bloc" id="section-7">
+	<section class="bloc bgc-white l-bloc" id="section-7" aria-label="section formulaire">
 		<div class="container bloc-lg">
 			<div class="row">
 				<div class="col-sm-6">
@@ -80,25 +80,25 @@
 							<label for="name">
 								Nom
 							</label>
-							<input id="name" class="form-control" required aria-labelledby="Saisir votre nom ou votre prénom">
+							<input id="name" class="form-control" required aria-label="Saisir votre nom ou votre prénom">
 						</div>
 						<div class="form-group">
 							<label for="email">
 								Adresse email
 							</label>
-							<input id="email" class="form-control" type="email" required aria-labelledby="Saisir votre email">
+							<input id="email" class="form-control" type="email" required aria-label="Saisir votre email">
 						</div>
 						<div class="form-group">
 							<label for="recommandation">
 								Comment nous avez-vous connu ?
 							</label>
-							<input class="form-control" type="email" required id="recommandation" aria-labelledby="Comment nous avez vous connu, expliquez nous en quelques mots">
+							<input class="form-control" type="email" required id="recommandation" aria-label="Comment nous avez vous connu, expliquez nous en quelques mots">
 						</div>
 						<div class="form-group">
 							<label for="message">
 								Brief de votre projet (Ajoutez autant de détails que nécessaire)
 							</label>
-							<textarea id="message" class="form-control" rows="4" cols="50" required aria-labelledby="Saisir votre message"></textarea>
+							<textarea id="message" class="form-control" rows="4" cols="50" required aria-label="Saisir votre message"></textarea>
 						</div> 
 						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" aria-label="bouton pour soumettre notre formulaire de contact">
 							Envoyer
@@ -130,7 +130,7 @@
 
 
 <!----------------------------------------------------------------------------------------------------------------------------- Footer  ------------------------------------------------------------------------------------------>
-<footer class="bloc bgc-atomic-tangerine" id="footer">
+<footer class="bloc bgc-atomic-tangerine" id="footer" aria-label="pied de page">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
@@ -140,22 +140,27 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html" aria-label="lien vers twitter"><i class="fa-brands fa-twitter icon-md"></i></a>											
+							<a class="social" href="#" aria-label="lien vers twitter"><i class="fa-brands fa-twitter icon-md"></i></a>											
 						</div>			
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html" aria-label="lien vers facebook"><i class="fa-brands fa-facebook-f icon-md"></i></a>
+							<a class="social" href="#" aria-label="lien vers facebook"><i class="fa-brands fa-facebook-f icon-md"></i></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html" aria-label="lien vers dribble"><i class="fa-brands fa-dribbble icon-md"></i></a>
+							<a class="social" href="#" aria-label="lien vers dribble"><i class="fa-brands fa-dribbble icon-md"></i></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html" aria-label="lien vers instagram"><i class="fa-brands fa-instagram icon-md"></i></a>
+							<a class="social" href="#" aria-label="lien vers instagram"><i class="fa-brands fa-instagram icon-md"></i></a>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="text-center">
+							<a href="mention-legales.html" class="m-legal"> Mentions légales</a>
 						</div>
 					</div>
 				</div>

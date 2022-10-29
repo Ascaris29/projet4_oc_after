@@ -170,7 +170,7 @@
 			</div>
 			<div class="row tight-width-whitespace portfolio-row">
 				<div class="col-sm-6">
-					<a href="#" data-lightbox="img/1_large_compressed.webp" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb" aria-label="lien vers refonte site web local" >
+					<a href="#"id="modal" data-lightbox="" data-bs-target="#siteJournal" data-bs-toggle="modal" aria-label="lien vers site web photographe" class="container_photos" >
 						<img src="img/1_small_compressed.webp" alt="livres de toutes les couleurs" class="img-responsive portfolio-thumb">
 					</a>
 					<h3 class="mg-md text-center">
@@ -180,8 +180,25 @@
 						Nous avons créé une nouvelle identité visuelle pour un journal lyonnais.
 					</p>
 				</div>
-				<div class="col-sm-6">
-					<a href="#" data-lightbox="img/2_large_compressed.webp" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb" aria-label="lien vers site web photographe" class="container_photos"><img src="img/2_small_compressed.webp" class="img-responsive portfolio-thumb" alt="Jeune femme à lunettes qui prend des photos avec un appareil professionnel"></a>
+				<!-------------------- modal ---------------------->
+				<div class="modal fade" id="siteJournal" tabindex="-1"  role="dialog">
+					<div class="modal-dialog  modal-dialog-scrollable modal-xl modal-dialog-centered">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h3 class="modal-title">Site web pour un journal local</h3>
+							</div>
+							<div class="modal-body text-center">
+								<img src="img/1_large_compressed.webp" alt="site journal local">
+							</div>
+							<button class="btn-close" type="button" data-bs-dismiss="modal"></button>
+						</div>
+					</div>
+				</div> 
+
+				<div class="col-sm-6 text-center">
+					<a href="#" id="modal" data-lightbox="" data-bs-target="#sitePhotographe" data-bs-toggle="modal" aria-label="lien vers site web photographe" class="container_photos">
+						<img src="img/2_small_compressed.webp" class="img-responsive portfolio-thumb" alt="Jeune femme à lunettes qui prend des photos avec un appareil professionnel">
+					</a>
 					<h3 class="mg-md text-center">
 						Création d'un site web pour photographes
 					</h3>
@@ -189,28 +206,75 @@
 						Nous avons conçu la plateforme idéale pour laisser place aux clichés des photographes.
 					</p>
 				</div>
-			</div>
-			<div class="row tight-width-whitespace portfolio-row">
-				<div class="col-sm-6">
-					<a href="#" data-lightbox="img/3_compressed.webp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb" aria-label="lien vers site web voyageur" class="container_photos"><img src="img/3_compressed.webp" class="img-responsive portfolio-thumb" alt="Divers objets technologiques"></a>
-					<h3 class="mg-md text-center">
-						Création d'un site internet pour un voyageur
-					</h3>
-					<p class="text-center">
-						Nous avons élaboré un site internet et des illustrations pour sublimer les vidéos et les articles de ce voyageur.
-					</p>
+
+				<!-------------------------------- modal ------------------------------------------>
+				<div class="modal fade" id="sitePhotographe" tabindex="-1"  role="dialog">
+					<div class="modal-dialog  modal-dialog-scrollable modal-lg modal-dialog-centered">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h3 class="modal-title">Site web pour photographe</h3>
+							</div>
+							<div class="modal-body text-center">
+								<img src="img/2_large_compressed.webp" alt="site web photographe">
+							</div>
+							<button class="btn-close" type="button" data-bs-dismiss="modal"></button>
+						</div>
+					</div>
 				</div>
-				<div class="col-sm-6">
-					<a href="#" data-lightbox="img/4_compressed.webp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb" aria-label="site web agence de mariage" class="container_photos"><img src="img/4_compressed.webp" class="img-responsive portfolio-thumb" alt="Femme tapant sur son clavier d'ordinateur portable"></a>
+			</div>
+
+			<div class="row tight-width-whitespace portfolio-row">
+					<div class="col-sm-6">
+						<a href="#" id="modal" data-lightbox="" data-bs-target="#siteVoyageur" data-bs-toggle="modal" aria-label="lien vers site web voyageur" class="container_photos">
+							<img src="img/3_compressed.webp" class="img-responsive portfolio-thumb" alt="Divers objets technologiques">
+						</a>
+						<h3 class="mg-md text-center">
+							Création d'un site internet pour un voyageur
+						</h3>
+						<p class="text-center">
+							Nous avons élaboré un site internet et des illustrations pour sublimer les vidéos et les articles de ce voyageur.
+						</p>
+				</div>
+				<!-------------------------------------- modal --------------------------------------------------->
+				<div class="modal fade" id="siteVoyageur" tabindex="-1"  role="dialog">
+					<div class="modal-dialog  modal-dialog-scrollable modal-md modal-dialog-centered">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h3 class="modal-title">Site web pour voyageur</h3>
+							</div>
+							<div class="modal-body text-center">
+								<img src="img/3_compressed.webp" alt="site web voyageur">
+							</div>
+							<button class="btn-close" type="button" data-bs-dismiss="modal"></button>
+						</div>
+					</div>
+				</div>
+			<div class="col-sm-6">
+				<a href="#" id="modal" data-lightbox="" data-bs-target="#siteMariage" data-bs-toggle="modal" aria-label="lien vers site web d'agence de voyage" class="container_photos">
+					<img src="img/4_compressed.webp" class="img-responsive portfolio-thumb" alt="Femme tapant sur son clavier d'ordinateur portable">
+				</a>
 					<h3 class="mg-md text-center">
 						Conception d'un site pour une agence de mariage
 					</h3>
 					<p class="text-center">
 						Nous avons travaillé avec cette agence pour créer un site internet permettant la présentation détaillée de leurs prestations.
 					</p>
+			</div>
+			<div class="modal fade" id="siteMariage" tabindex="-1"  role="dialog">
+				<div class="modal-dialog  modal-dialog-scrollable modal-md modal-dialog-centered">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h3 class="modal-title">Site web pour agence de mariage</h3>
+						</div>
+						<div class="modal-body text-center">
+							<img src="img/4_compressed.webp" alt="site web agence de mariage">
+						</div>
+						<button class="btn-close" type="button" data-bs-dismiss="modal"></button>
+					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 	</section>
 	<!------------------------------------------------------------------------------------------------------------------------------ section 5 -------------------------------------------------------------------------------------------->
 	<section class="bloc bg-banniere d-bloc bloc-bg-texture texture-paper section-5" id="section-5-cta" aria-label="section contact equipe du site la panthère">
